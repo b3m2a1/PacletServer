@@ -1,0 +1,264 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9573,        256]
+NotebookOptionsPosition[      6320,        199]
+NotebookOutlinePosition[      6747,        216]
+CellTagsIndexPosition[      6704,        213]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<|", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"\"\<Title\>\"", "\[Rule]", "\"\<IndexNotebook\>\""}], ",", 
+   "\[IndentingNewLine]", 
+   RowBox[{"\"\<Slug\>\"", "\[Rule]", "\"\<index\>\""}]}], 
+  "\[IndentingNewLine]", "|>"}]], "Metadata",
+ CellChangeTimes->{{3.712804562625855*^9, 3.712804582370112*^9}, {
+  3.736027051972919*^9, 3.7360270527492733`*^9}, {3.736031752649905*^9, 
+  3.736031765645459*^9}},ExpressionUUID->"5485d360-c7b1-4db9-843c-\
+9d0ac3d5b893"],
+
+Cell[CellGroupData[{
+
+Cell["Resource Listing", "Subsection",
+ CellChangeTimes->{{3.7128049815956984`*^9, 3.7128049849866447`*^9}, {
+  3.736027019688779*^9, 
+  3.7360270229729977`*^9}},ExpressionUUID->"d46f7377-7dbe-4197-9419-\
+1e81ecd49433"],
+
+Cell["\<\
+This is a directory containing a bunch of difference resources to store on \
+the web for use in paclets\
+\>", "Text",
+ CellChangeTimes->{{3.712804327672019*^9, 3.712804426020475*^9}, {
+  3.7128093567389812`*^9, 3.712809358703854*^9}, {3.736027040102686*^9, 
+  3.736027069588591*^9}},ExpressionUUID->"e54a3b6f-33dd-45aa-b664-\
+ae0bb2a267fa"],
+
+Cell["The current resources are", "Text",
+ CellChangeTimes->{{3.736027075669619*^9, 
+  3.7360270858041773`*^9}},ExpressionUUID->"a55a9a53-773b-46c7-af1b-\
+a389ee7b8ec0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["ChemTools", "Subsection",
+ CellChangeTimes->{{3.7360270893719273`*^9, 
+  3.7360270903640738`*^9}},ExpressionUUID->"122e5786-aae5-4b00-8e30-\
+93fcc7b1aaa9"],
+
+Cell["These are used by the ChemTools paclet", "Text",
+ CellChangeTimes->{{3.736027242929162*^9, 3.736027246833419*^9}, {
+  3.736027917845765*^9, 
+  3.7360279393463078`*^9}},ExpressionUUID->"7dde08f5-00be-4e96-adf5-\
+fd9f5aa8bcf2"],
+
+Cell[CellGroupData[{
+
+Cell["Datasets", "Item",
+ CellChangeTimes->{{3.7360278366292953`*^9, 
+  3.736027840595689*^9}},ExpressionUUID->"8ef04ac6-c411-4633-9587-\
+a6e09f4d3ce7"],
+
+Cell[CellGroupData[{
+
+Cell["ChemAtomColors.wl", "Subitem",
+ CellChangeTimes->{{3.7360281973536043`*^9, 
+  3.736028200249658*^9}},ExpressionUUID->"3c42342a-3439-481a-9719-\
+1713d635094d"],
+
+Cell["ChemBondDistances.wl", "Subitem",
+ CellChangeTimes->{{3.7360281973536043`*^9, 
+  3.736028204195397*^9}},ExpressionUUID->"1a67f644-3106-49df-a499-\
+a7b900705b51"],
+
+Cell["ChemCharacterTables.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.736027860375588*^9}},ExpressionUUID->"3090b653-ba86-48e0-a331-\
+04c913b1ba0e"],
+
+Cell["ChemCorrelationTables.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.736027858687667*^9}},ExpressionUUID->"febe0aaa-3df9-4bfc-af8c-\
+17dfc165922d"],
+
+Cell["ChemCustomAtoms.wl", "Subitem",
+ CellChangeTimes->{{3.736028215049281*^9, 
+  3.736028216147834*^9}},ExpressionUUID->"49ea0d0f-07d7-41a2-93ce-\
+50a5a1e60b9a"],
+
+Cell["ChemElements.wl", "Subitem",
+ CellChangeTimes->{{3.736028215049281*^9, 
+  3.736028224284923*^9}},ExpressionUUID->"315ca240-0757-43c7-a667-\
+2b8cbbf2d61a"],
+
+Cell["ChemElementValences.wl", "Subitem",
+ CellChangeTimes->{{3.736028215049281*^9, 
+  3.736028225196288*^9}},ExpressionUUID->"2827dd4f-2e22-4d8b-b595-\
+fce95c95e552"],
+
+Cell["ChemIsotopicMasses.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.7360278641768723`*^9}},ExpressionUUID->"47a77ef4-05f9-46ec-b8c5-\
+fe5a8971cad0"],
+
+Cell["ChemSpaceGroups.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.736027865070957*^9}},ExpressionUUID->"43f2422f-d8f4-4871-856f-\
+a2e225262126"],
+
+Cell["ChemTanabeSuganoDiagrams.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.736027870995832*^9}},ExpressionUUID->"9994c89d-b028-4238-8bf3-\
+06d8f2a9385d"],
+
+Cell["MMFF94AtomTypes.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.7360278743217697`*^9}},ExpressionUUID->"783a964b-a763-4a43-a33d-\
+22cb915cf90f"],
+
+Cell["MMFF94BondAngleData.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.7360278778016863`*^9}},ExpressionUUID->"fdb3a083-3a8d-4630-88b3-\
+faeae81278f2"],
+
+Cell["MMFF94BondData.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.7360278818336163`*^9}},ExpressionUUID->"e6a072f1-d9ff-455c-857e-\
+98916d219061"],
+
+Cell["MMFF94StretchBendData.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.73602788687317*^9}},ExpressionUUID->"26ec996d-6633-4190-9d38-\
+5f2c381082c5"],
+
+Cell["MMFF94TorsionAngleData.wl", "Subitem",
+ CellChangeTimes->{{3.736027842035551*^9, 
+  3.736027890259205*^9}},ExpressionUUID->"59cf1a9b-a08e-42fb-93da-\
+ba58cfb136f2"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["SiteBuilder", "Subsection",
+ CellChangeTimes->{{3.73602709192696*^9, 
+  3.7360270941236258`*^9}},ExpressionUUID->"0f2da17a-e4d9-4151-aa57-\
+962919bcaa19"],
+
+Cell["These are used by the site builder extension to BTools", "Text",
+ CellChangeTimes->{{3.73602709526742*^9, 
+  3.736027102355878*^9}},ExpressionUUID->"d4a38418-665b-4948-9682-\
+79635561f3fd"],
+
+Cell[CellGroupData[{
+
+Cell["Themes", "Item",
+ CellChangeTimes->{{3.736027107613636*^9, 
+  3.736027108822956*^9}},ExpressionUUID->"32c8e2d9-6925-41ca-9e35-\
+20fc2b53d9ff"],
+
+Cell[CellGroupData[{
+
+Cell["DocumentationSite.zip", "Subitem",
+ CellChangeTimes->{{3.736027107613636*^9, 
+  3.7360271475384398`*^9}},ExpressionUUID->"82ec03f7-81e0-482f-b666-\
+f3608955e35e"],
+
+Cell["PacletServer.zip", "Subitem",
+ CellChangeTimes->{{3.736027107613636*^9, 
+  3.736027152353409*^9}},ExpressionUUID->"0e30bde5-2708-4e1a-b1df-\
+45a026f49a03"],
+
+Cell["tutorial.zip", "Subitem",
+ CellChangeTimes->{{3.736027107613636*^9, 3.736027118000383*^9}, 
+   3.736027160385577*^9},ExpressionUUID->"53c24dde-8731-4b14-b369-\
+bcaa2130b587"],
+
+Cell["w3arch.zip", "Subitem",
+ CellChangeTimes->{{3.736027107613636*^9, 
+  3.736027123139429*^9}},ExpressionUUID->"c163ca4b-f5f8-4510-842f-\
+dd999f3c1663"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 755},
+WindowMargins->{{Automatic, 46}, {Automatic, 30}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 5, \
+2018)",
+StyleDefinitions->FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb", 
+  CharacterEncoding -> "UTF-8"]
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 491, 10, 112, "Metadata",ExpressionUUID->"5485d360-c7b1-4db9-843c-9d0ac3d5b893"],
+Cell[CellGroupData[{
+Cell[1074, 34, 219, 4, 41, "Subsection",ExpressionUUID->"d46f7377-7dbe-4197-9419-1e81ecd49433"],
+Cell[1296, 40, 350, 7, 35, "Text",ExpressionUUID->"e54a3b6f-33dd-45aa-b664-ae0bb2a267fa"],
+Cell[1649, 49, 169, 3, 35, "Text",ExpressionUUID->"a55a9a53-773b-46c7-af1b-a389ee7b8ec0"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1855, 57, 161, 3, 41, "Subsection",ExpressionUUID->"122e5786-aae5-4b00-8e30-93fcc7b1aaa9"],
+Cell[2019, 62, 231, 4, 35, "Text",ExpressionUUID->"7dde08f5-00be-4e96-adf5-fd9f5aa8bcf2"],
+Cell[CellGroupData[{
+Cell[2275, 70, 152, 3, 32, "Item",ExpressionUUID->"8ef04ac6-c411-4633-9587-a6e09f4d3ce7"],
+Cell[CellGroupData[{
+Cell[2452, 77, 164, 3, 26, "Subitem",ExpressionUUID->"3c42342a-3439-481a-9719-1713d635094d"],
+Cell[2619, 82, 167, 3, 26, "Subitem",ExpressionUUID->"1a67f644-3106-49df-a499-a7b900705b51"],
+Cell[2789, 87, 167, 3, 26, "Subitem",ExpressionUUID->"3090b653-ba86-48e0-a331-04c913b1ba0e"],
+Cell[2959, 92, 169, 3, 26, "Subitem",ExpressionUUID->"febe0aaa-3df9-4bfc-af8c-17dfc165922d"],
+Cell[3131, 97, 163, 3, 26, "Subitem",ExpressionUUID->"49ea0d0f-07d7-41a2-93ce-50a5a1e60b9a"],
+Cell[3297, 102, 160, 3, 26, "Subitem",ExpressionUUID->"315ca240-0757-43c7-a667-2b8cbbf2d61a"],
+Cell[3460, 107, 167, 3, 26, "Subitem",ExpressionUUID->"2827dd4f-2e22-4d8b-b595-fce95c95e552"],
+Cell[3630, 112, 168, 3, 26, "Subitem",ExpressionUUID->"47a77ef4-05f9-46ec-b8c5-fe5a8971cad0"],
+Cell[3801, 117, 163, 3, 26, "Subitem",ExpressionUUID->"43f2422f-d8f4-4871-856f-a2e225262126"],
+Cell[3967, 122, 172, 3, 26, "Subitem",ExpressionUUID->"9994c89d-b028-4238-8bf3-06d8f2a9385d"],
+Cell[4142, 127, 165, 3, 26, "Subitem",ExpressionUUID->"783a964b-a763-4a43-a33d-22cb915cf90f"],
+Cell[4310, 132, 169, 3, 26, "Subitem",ExpressionUUID->"fdb3a083-3a8d-4630-88b3-faeae81278f2"],
+Cell[4482, 137, 164, 3, 26, "Subitem",ExpressionUUID->"e6a072f1-d9ff-455c-857e-98916d219061"],
+Cell[4649, 142, 168, 3, 26, "Subitem",ExpressionUUID->"26ec996d-6633-4190-9d38-5f2c381082c5"],
+Cell[4820, 147, 170, 3, 26, "Subitem",ExpressionUUID->"59cf1a9b-a08e-42fb-93da-ba58cfb136f2"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5051, 157, 160, 3, 41, "Subsection",ExpressionUUID->"0f2da17a-e4d9-4151-aa57-962919bcaa19"],
+Cell[5214, 162, 195, 3, 35, "Text",ExpressionUUID->"d4a38418-665b-4948-9682-79635561f3fd"],
+Cell[CellGroupData[{
+Cell[5434, 169, 148, 3, 32, "Item",ExpressionUUID->"32c8e2d9-6925-41ca-9e35-20fc2b53d9ff"],
+Cell[CellGroupData[{
+Cell[5607, 176, 168, 3, 26, "Subitem",ExpressionUUID->"82ec03f7-81e0-482f-b666-f3608955e35e"],
+Cell[5778, 181, 161, 3, 26, "Subitem",ExpressionUUID->"0e30bde5-2708-4e1a-b1df-45a026f49a03"],
+Cell[5942, 186, 180, 3, 26, "Subitem",ExpressionUUID->"53c24dde-8731-4b14-b369-bcaa2130b587"],
+Cell[6125, 191, 155, 3, 26, "Subitem",ExpressionUUID->"c163ca4b-f5f8-4510-842f-dd999f3c1663"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
