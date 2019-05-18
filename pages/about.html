@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>
+  With[{Templating`lib`Private`tempArgs = Join @@ Flatten[{#1, Replace[Templating`$TemplateArgumentStack, {{___, Templating`lib`Private`a_} :> Templating`lib`Private`a, _ -> Association[]}]}]}, Replace[Templating`lib`Private`tempArgs["Title"], Except[_String] :> FileBaseName[Templating`lib`Private`tempArgs["FilePath"]]]] &  | PacletServer
+    </title>
+<link
+      rel='apple-touch-icon'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/apple-touch-icon.png'
+      sizes='180x180'
+  >
+<link
+      rel='icon'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/favicon-32x32.png'
+      sizes='32x32'
+  >
+<link
+      rel='icon'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/favicon-16x16.png'
+      sizes='16x16'
+  >
+<link
+      rel='manifest'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/manifest.json'
+  >
+<link
+      rel='stylesheet'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/css/pygments/default.min.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/css/bootstrap.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/css/font-awesome.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://fonts.googleapis.com/css?family=Source+Code+Pro'
+  >
+<link
+      rel='stylesheet'
+      href='https://reference.wolfram.com/language-assets/css/special-styles.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/css/common.css'
+  >
+<link
+      rel='stylesheet'
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/css/style.css'
+  >
+      <meta name="description" content="">
+  <link href="https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/prettify/styles/prettify-mma.min.css" rel="stylesheet">
+  <script src="https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/prettify/src/prettify.js"></script>
+  <script src="https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/theme/prettify/src/lang-mma.min.js"></script>
+  <script>
+    function moveWindow (){window.location.hash="main-content";}
+  </script>
+  </head>
+<body onload="">
+  <header class="header">
+    <div class="top-bar">
+      <div class="site-title">
+        <h1 class="title">
+<a
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/'
+  >
+      PacletServer</a>
+        </h1>
+      </div>
+      <div class="site-links">
+        <ul class="list-inline row" id="">
+<li class="list-inline-item">
+<a
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/pages/about.html'
+  >
+      About</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/categories.html'
+  >
+      Categories</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/tags.html'
+  >
+      Tags</a>
+</li>
+<li class="list-inline-item">
+<a
+      href='https://www.wolframcloud.com/objects/b3m2a1.paclets/PacletServer/authors.html'
+  >
+      Authors</a>
+</li>
+</ul>
+      </div>
+    </div>
+  </header>
+  <div class="main" id="main-content">
+    <div class="main-content">
+      <div class="container centered">
+        <br>
+  <article class="article">
+    <div class="content">
+      <a shape='rect' id='about-this-site' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> About This Site</h2>
+<p>This is a paclet server. It lists the currently available paclets at this site. You can download any paclet via the &#8220;Download&#8221; link on its page. Alternatively, you can install paclets via  <a href='https://www.wolframcloud.com/objects/b3m2a1.paclets/reference/PacletManager/ref/PacletInstall.html'><code>PacletInstall</code></a> .</p>
+<p>There are three ways to do this:</p>
+<ul>
+ <li>Via the paclet download link</li>
+</ul>
+<pre>
+ <code>$paclet = 
+  &quot;https://this.paclet.server/Paclets/paclet-name-and-version.paclet&quot;;\
+
+PacletInstall[$paclet]</code>
+</pre>
+<ul>
+ <li>Via a paclet site:</li>
+</ul>
+<pre>
+ <code>$pacletName = &quot;NameOfPaclet&quot;;
+$pacletSite = &quot;https://this.paclet.server&quot;;
+PacletInstall[$pacletName, &quot;Site&quot; -&gt; $pacletSite]</code>
+</pre>
+<ul>
+ <li>Via an update-able paclet site:</li>
+</ul>
+<pre>
+ <code>$pacletName = &quot;NameOfPaclet&quot;;
+PacletSiteAdd[&quot;https://this.paclet.server&quot;, &quot;Paclet site description&quot;];
+PacletInstall[$pacletName]</code>
+</pre>
+<a shape='rect' id='about-paclets' style='width:0;height:0;margin:0;padding:0;'>&#8204;</a>
+<h2> About Paclets</h2>
+<p>Paclets are the standard Mathematica package distribution format. They&#8217;re the source code for a package compressed with a PacletInfo.m file that provides meta-information about the package.</p>
+<p>Paclets installed via  <code>PacletInstall</code>  can automatically be loaded via  <code>Get</code>  without passing the source name and provide all of the conveniences of a Mathematica application.</p>
+    </div>
+  </article>
+      </div>
+    </div>
+  </div>
+<footer class="footer">
+  <p class="col-sm-6 text-sm-right text-muted acknowledgement">
+  </p>
+</footer>
+</body>
+</html>
