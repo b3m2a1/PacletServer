@@ -1,0 +1,249 @@
+{
+	"pages":[
+		{
+			"title":"AmhCode",
+			"text":"‌   AmhCode   Download  \nA paclet full of legacy code from a few years ago.     Mostly depends on a python-style object system.    \n\n  ‌   Basic Information   ‌   Name  \nAmhCode   ‌   Version  \n1.0.4   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information   ‌   WolframVersion  \n10+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: AmhCode` Root: . Context: AmhCode`   ‌   Documentation  \nLanguage: English   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"mathematica",
+			"url":"amhcode.html",
+			"note":""
+		},
+		{
+			"title":"BTools",
+			"text":"‌   BTools      Download  \nA general purpose package that implements useful functionality for application development. Features include: distribution tools, documentation generation, front-end manipulation, and application editing   \n\n  ‌   Basic Information   ‌   Name  \nBTools   ‌   Version  \n2.1.49   ‌   Creator   b3m2a1@gmail.com   ‌   URL   https:\/\/github.com\/b3m2a1\/mathematica-BTools   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   WolframVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: BTools`   ‌   Resource  \nRoot: Resources Resources\n  Data     Icons     Images     PaletteGenerators     Templates     Themes     {ResourceRules, Data\/FrontEnd\/ResourceRules.wl}     {ResourceStrings, Data\/FrontEnd\/ResourceStrings.wl}     {Resources, Data\/FrontEnd\/Resources.wl}     {Tokens, Data\/FrontEnd\/Tokens.wl}     {Values, Data\/FrontEnd\/Values.wl}     {PacletIcon, Icons\/PacletIcon.png}     {PacletSiteIcon, Icons\/PacletSiteIcon.png}     {GoogleOAuthExample, Images\/GoogleOAuthExample.png}     {AppManagerPaletteGenerator, PaletteGenerators\/AppManagerPaletteGenerator.nb}     {CuratedDataHelperGenerator, PaletteGenerators\/CuratedDataHelperGenerator.nb}     {DocumentationGenerator, PaletteGenerators\/DocumentationGenerator.nb}     {EncodedCacheManagerGenerator, PaletteGenerators\/EncodedCacheManagerGenerator.nb}     {HTMLHelperGenerator, PaletteGenerators\/HTMLHelperGenerator.nb}     {PacletServerManagerGenerator, PaletteGenerators\/PacletServerManagerGenerator.nb}     {PaletteTemplate, PaletteGenerators\/PaletteTemplate.nb}     {ServiceConnectionHelperGenerator, PaletteGenerators\/ServiceConnectionHelperGenerator.nb}     {SiteBuilderGenerator, PaletteGenerators\/SiteBuilderGenerator.nb}     {ContextLoader, Templates\/ContextLoader.wl}     {CuratedDataTemplate, Templates\/CuratedDataTemplate.nb}     {init, Templates\/Initialization\/init.m}     {Main, Templates\/Initialization\/Main.wl}     {README, Templates\/README.nb}     {ServiceConnectionTemplate, Templates\/ServiceConnectionTemplate.nb}     {FrontEnd, Data\/FrontEnd}     {Frameworks, Templates\/Frameworks}     {CuratedData, Templates\/Frameworks\/CuratedData}     {$ServiceConnection, Templates\/Frameworks\/$ServiceConnection}     {Initialization, Templates\/Initialization}     {Loader, Templates\/Initialization\/Loader}     {SiteBuilder, Templates\/SiteBuilder}     {DocumentationSite, Templates\/SiteBuilder\/DocumentationSite}     {PacletServer, Templates\/SiteBuilder\/PacletServer}     {TutorialSite, Templates\/SiteBuilder\/TutorialSite}     {WebSite, Templates\/SiteBuilder\/WebSite}     {minimal, Themes\/minimal}     {static, Themes\/minimal\/static}     {templates, Themes\/minimal\/templates}     {template_lib, Themes\/template_lib}     {include, Themes\/template_lib\/include}     {tipuesearch, Themes\/template_lib\/tipuesearch}     ‌   FrontEnd  \nPrepend: True   ‌   Documentation  \nLanguage: English MainPage: Guides\/BTools",
+			"tags":"documentation front-end paclets web",
+			"url":"btools.html",
+			"note":""
+		},
+		{
+			"title":"BugTracker",
+			"text":"‌   BugTracker   Download  \nA little framework for tracking bugs   \n\n  ‌   Basic Information   ‌   Name  \nBugTracker   ‌   Version  \n1.0.4   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/BugTracker   ‌   License  \nMIT   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: BugTracker`   ‌   FrontEnd  \nPrepend: True",
+			"tags":"bugs",
+			"url":"bugtracker.html",
+			"note":""
+		},
+		{
+			"title":"ChemTools",
+			"text":"‌   ChemTools      Download  \nA collection of packages for object oriented chemistry. The primary packages implement an object and data framework. Support is included for basic spectroscopy and a few different external programs. A moderately sophisticated discrete variable representation framework is included as well.   \n\n  ‌   Basic Information   ‌   Name  \nChemTools   ‌   Version  \n1.4.1   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: ChemTools`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Formats  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\n  Datasets     Extensions     Icons     PaletteGenerators     Templates     {ChemAtomColors, Datasets\/ChemAtomColors.wl}     {ChemBondDistances, Datasets\/ChemBondDistances.wl}     {ChemConstants, Datasets\/ChemConstants.wl}     {ChemCustomAtoms, Datasets\/ChemCustomAtoms.wl}     {ChemElements, Datasets\/ChemElements.wl}     {ChemElementValences, Datasets\/ChemElementValences.wl}     {ChemIsotopicMasses, Datasets\/ChemIsotopicMasses.wl}     {ChemUnitConversions, Datasets\/ChemUnitConversions.wl}     {ContinuousSpectrumIcon, Icons\/ContinuousSpectrumIcon.png}     {DiscreteSpectrumIcon, Icons\/DiscreteSpectrumIcon.png}     {DVRIcon, Icons\/DVRIcon.png}     {OpenBabelIcon, Icons\/OpenBabelIcon.png}     {PacletIconBig, Icons\/PacletIconBig.png}     {Psi4Icon, Icons\/Psi4Icon.png}     {Psi4RunIcon, Icons\/Psi4RunIcon.png}     {DVRManagerGenerator, PaletteGenerators\/DVRManagerGenerator.nb}     {DVRNotebook, Templates\/DVRNotebook.nb}     {DVR, Extensions\/DVR}     {Classes, Extensions\/DVR\/Classes}     {Instances, Extensions\/DVR\/Instances}     {KineticEnergy, Extensions\/DVR\/KineticEnergy}     {PotentialEnergy, Extensions\/DVR\/PotentialEnergy}     {Wavefunctions, Extensions\/DVR\/Wavefunctions}     {WSim, Extensions\/WSim}    \nSystemID: *",
+			"tags":"chemistry",
+			"url":"chemtools.html",
+			"note":""
+		},
+		{
+			"title":"CuratedData",
+			"text":"‌   CuratedData   Download  \nA package for building custom curated data functions   \n\n  ‌   Basic Information   ‌   Name  \nCuratedData   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: CuratedData`   ‌   Resource  \nRoot: Resources Resources: Templates",
+			"tags":"data",
+			"url":"curateddata.html",
+			"note":""
+		},
+		{
+			"title":"CustomServiceConnection",
+			"text":"‌   CustomServiceConnection   Download  \nA package for building custom service connections functions   \n\n  ‌   Basic Information   ‌   Name  \nCustomServiceConnection   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: CustomServiceConnection`   ‌   Resource  \nRoot: Resources Resources: Templates",
+			"tags":"web",
+			"url":"customserviceconnection.html",
+			"note":""
+		},
+		{
+			"title":"DocGen",
+			"text":"‌   DocGen   Download  \nA paclet for generating documentation. Both notebook and HTML docs are supported.     Also supports automatic documentation generation. Forked from BTools.    \n\n  ‌   Basic Information   ‌   Name  \nDocGen   ‌   Version  \n1.0.5   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: DocGen` Root: . Context: DocGen`",
+			"tags":"documentation",
+			"url":"docgen.html",
+			"note":""
+		},
+		{
+			"title":"Documentation_BTools",
+			"text":"‌   BTools (Documentation)   Download  \nAutogenerated documentation   \n\n  ‌   Basic Information   ‌   Name  \nDocumentation_BTools   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English LinkBase: BTools MainPage: Guides\/BTools",
+			"tags":"",
+			"url":"documentationbtools.html",
+			"note":""
+		},
+		{
+			"title":"Documentation_BToolsExternal",
+			"text":"‌   BToolsExternal (Documentation)   Download  \nAutogenerated documentation   \n\n  ‌   Basic Information   ‌   Name  \nDocumentation_BToolsExternal   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English LinkBase: BToolsExternal MainPage: Guides\/BToolsExternal",
+			"tags":"",
+			"url":"documentationbtoolsexternal.html",
+			"note":""
+		},
+		{
+			"title":"Documentation_BToolsFrontEnd",
+			"text":"‌   BToolsFrontEnd (Documentation)   Download  \nAutogenerated documentation   \n\n  ‌   Basic Information   ‌   Name  \nDocumentation_BToolsFrontEnd   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English LinkBase: BToolsFrontEnd MainPage: Guides\/BToolsFrontEnd",
+			"tags":"",
+			"url":"documentationbtoolsfrontend.html",
+			"note":""
+		},
+		{
+			"title":"Documentation_BToolsPaclets",
+			"text":"‌   BToolsPaclets (Documentation)   Download  \nAutogenerated documentation   \n\n  ‌   Basic Information   ‌   Name  \nDocumentation_BToolsPaclets   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English LinkBase: BToolsPaclets MainPage: Guides\/BToolsPaclets",
+			"tags":"",
+			"url":"documentationbtoolspaclets.html",
+			"note":""
+		},
+		{
+			"title":"Documentation_BToolsWeb",
+			"text":"‌   BToolsWeb (Documentation)   Download  \nAutogenerated documentation   \n\n  ‌   Basic Information   ‌   Name  \nDocumentation_BToolsWeb   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English LinkBase: BToolsWeb MainPage: Guides\/BToolsWeb",
+			"tags":"",
+			"url":"documentationbtoolsweb.html",
+			"note":""
+		},
+		{
+			"title":"Ems",
+			"text":"‌   Ems   Download  \nA static website builder like pelican or jekyll. Comes with built in themes and the ability to develop one's own.   \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.10   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/Ems\/wiki   ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\n  Icons     Templates     Themes     {banner, Icons\/banner.png}     {banner_tall, Icons\/banner_tall.png}     {favicon-16x16, Icons\/favicon-16x16.png}     {favicon-32x32, Icons\/favicon-32x32.png}     {SiteConfig, Templates\/blog\/SiteConfig.wl}     {blog, Templates\/blog}     {content, Templates\/blog\/content}     {docs, Templates\/docs}     {portfolio, Templates\/portfolio}     {scroll, Templates\/scroll}     {bootstrap-blog, Themes\/bootstrap-blog}     {static, Themes\/bootstrap-blog\/static}     {templates, Themes\/bootstrap-blog\/templates}     {bootstrap-docs, Themes\/bootstrap-docs}     {bootstrap-portfolio, Themes\/bootstrap-portfolio}     {bootstrap-single-page, Themes\/bootstrap-single-page}",
+			"tags":"",
+			"url":"ems.html",
+			"note":""
+		},
+		{
+			"title":"InterfaceObjects",
+			"text":"‌   InterfaceObjects   Download  \n\n  ‌   Basic Information   ‌   Name  \nInterfaceObjects   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: InterfaceObjects`",
+			"tags":"",
+			"url":"interfaceobjects.html",
+			"note":""
+		},
+		{
+			"title":"ObjectFramework",
+			"text":"‌   ObjectFramework   Download  \nA framework for creating and using objects in a vectorized manner   \n\n  ‌   Basic Information   ‌   Name  \nObjectFramework   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Documentation  \nLanguage: English   ‌   Kernel  \nRoot: . Context: ObjectFramework`   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"core-language",
+			"url":"objectframework.html",
+			"note":""
+		},
+		{
+			"title":"OldHelpBrowser",
+			"text":"‌   OldHelpBrowser   Download  \nAutogenerated paclet from OldHelpBrowser.wl   \n\n  ‌   Basic Information   ‌   Name  \nOldHelpBrowser   ‌   Version  \n1.0.0   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: OldHelpBrowser`",
+			"tags":"",
+			"url":"oldhelpbrowser.html",
+			"note":""
+		},
+		{
+			"title":"PackageLoader",
+			"text":"‌   PackageLoader   Download  \ndasdasdasdasdasd   \n\n  ‌   Basic Information   ‌   Name  \nPackageLoader   ‌   Version  \n1.0.2   ‌   Creator   b3m2a1  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PackageLoader`   ‌   Resource  \nRoot: Resources Resources\n  Initialization     {init, Initialization\/init.m}     {Autocomplete, Initialization\/Loader\/Autocomplete.wl}     {Constants, Initialization\/Loader\/Constants.wl}     {Dependencies, Initialization\/Loader\/Dependencies.wl}     {Exceptions, Initialization\/Loader\/Exceptions.wl}     {FrontEnd, Initialization\/Loader\/FrontEnd.wl}     {Loading, Initialization\/Loader\/Loading.wl}     {MainLoader, Initialization\/Loader\/MainLoader.wl}     {Paths, Initialization\/Loader\/Paths.wl}     {Usages, Initialization\/Loader\/Usages.wl}     {Main, Initialization\/Main.wl}     {Loader, Initialization\/Loader}",
+			"tags":"",
+			"url":"packageloader.html",
+			"note":""
+		},
+		{
+			"title":"PelicanHelper",
+			"text":"‌   PelicanHelper   Download  \n\n  ‌   Basic Information   ‌   Name  \nPelicanHelper   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PelicanHelper`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\n  {PelicanHelperGenerator, PelicanHelperGenerator.nb}",
+			"tags":"",
+			"url":"pelicanhelper.html",
+			"note":""
+		},
+		{
+			"title":"PJLink",
+			"text":"‌   PJLink   Download  \nA JLink-like interface for python   \n\n  ‌   Basic Information   ‌   Name  \nPJLink   ‌   Version  \n1.0.7   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PJLink`",
+			"tags":"",
+			"url":"pjlink.html",
+			"note":""
+		},
+		{
+			"title":"PublicPacletServer",
+			"text":"‌   PublicPacletServer      Download  \nA beta version of a paclet for interfacing with the public paclet server Current supports: forking the server, submitting paclets, sending PRs, cloning the server, and building the server   \n\n  ‌   Basic Information   ‌   Name  \nPublicPacletServer   ‌   Version  \n0.0.13   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PublicPacletServer`   ‌   Resource  \nRoot: Resources Resources\n  Templates     {ExtraPacletInfo, Templates\/ExtraPacletInfo.wl}     {IncludedPaclets, Templates\/IncludedPaclets.wl}",
+			"tags":"",
+			"url":"publicpacletserver.html",
+			"note":""
+		},
+		{
+			"title":"PyTools",
+			"text":"‌   PyTools   Download  \nA process-based link between Mathematica and python.     Includes tools based off of this link    \n\n  ‌   Basic Information   ‌   Name  \nPyTools   ‌   Version  \n1.0.10   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: PyTools` Root: . Context: PyTools`   ‌   Resource  \nRoot: Resources Resources: MLib SystemID: *   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"mathematica python",
+			"url":"pytools.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_DeckOfCards",
+			"text":"‌   DeckOfCards (ServiceConnection)      Download  \nA stateful connection to the DeckOfCards API   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_DeckOfCards   ‌   Version  \n1.0.2   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"web serviceconnection",
+			"url":"serviceconnectiondeckofcards.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_GitHub",
+			"text":"‌   GitHub (ServiceConnection)   Download  \nA service connection to the GitHub API. Supports the repos interface, part of the branches interface, and the core of the gists interface.   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_GitHub   ‌   Version  \n1.0.3   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectiongithub.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_GitHubJobs",
+			"text":"‌   GitHubJobs (ServiceConnection)   Download  \nA service connection to the GitHub Jobs API   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_GitHubJobs   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectiongithubjobs.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_GoogleDrive",
+			"text":"‌   GoogleDrive (ServiceConnection)   Download  \nA service connection to the Google Drive API. Supports the files and permissions interfaces.   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_GoogleDrive   ‌   Version  \n1.0.2   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectiongoogledrive.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_HouseOfGraphs",
+			"text":"‌   HouseOfGraphs (ServiceConnection)      Download  \nServiceConnection to the House of Graphs API: https:\/\/hog.grinvin.org   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_HouseOfGraphs   ‌   Version  \n1.0.4   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionhouseofgraphs.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_NASA",
+			"text":"‌   NASA (ServiceConnection)      Download  \nA service connection to NASA's APIs   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_NASA   ‌   Version  \n1.0.1   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nPrepend: True",
+			"tags":"web serviceconnection nasa",
+			"url":"serviceconnectionnasa.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_OEIS",
+			"text":"‌   OEIS (ServiceConnection)      Download  \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_OEIS   ‌   Version  \n1.0.0   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionoeis.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_PackageData",
+			"text":"‌   PackageData (ServiceConnection)   Download  \nA service connection to PackageData.net. It supports pulling package information, searching for packages, and has limited support for installing packages. Generally operates on the ID parameter of packages   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_PackageData   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: ServiceConnection_PackageData`   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionpackagedata.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_Qwant",
+			"text":"‌   Qwant (ServiceConnection)   Download  \nQwant API connection   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_Qwant   ‌   Version  \n1.0.5   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionqwant.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_StackExchange",
+			"text":"‌   StackExchange (ServiceConnection)   Download  \nA service connection to the Stack Exchange API. Supports the majority of the functions defined in the API   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_StackExchange   ‌   Version  \n1.1.6   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionstackexchange.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_WolframCommunity",
+			"text":"‌   WolframCommunity (ServiceConnection)   Download  \nA hacked-up ServiceConnection to the Wolfram Community website   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_WolframCommunity   ‌   Version  \n1.0.3   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"tags":"",
+			"url":"serviceconnectionwolframcommunity.html",
+			"note":""
+		},
+		{
+			"title":"ServiceConnection_YouTube",
+			"text":"‌   YouTube (ServiceConnection)      Download  \nA service connection to the YouTube Data API (https:\/\/developers.google.com\/youtube\/v3\/docs)   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_YouTube   ‌   Version  \n1.0.1   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nPrepend: True",
+			"tags":"",
+			"url":"serviceconnectionyoutube.html",
+			"note":""
+		},
+		{
+			"title":"SimpleDocs",
+			"text":"‌   SimpleDocs   Download  \nA simple package to make simple documentation   \n\n  ‌   Basic Information   ‌   Name  \nSimpleDocs   ‌   Version  \n1.1.1   ‌   Creator   b3m2a1   ‌   URL   https:\/\/github.com\/b3m2a1\/SimpleDocs   ‌   License  \nMIT   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SimpleDocs`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Documentation  \nLanguage: English MainPage: Guides\/SimpleDocs   ‌   Resource  \nRoot: Resources Resources\n  {icon_big, icon_big.png}     {icon, icon.png}     {SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}",
+			"tags":"documentation",
+			"url":"simpledocs.html",
+			"note":""
+		},
+		{
+			"title":"SymbolObjects",
+			"text":"‌   SymbolObjects   Download  \nA light-weight object framework for Mathematica   \n\n  ‌   Basic Information   ‌   Name  \nSymbolObjects   ‌   Version  \n1.0.0   ‌   Creator   b3m2a1@gmail.com  \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SymbolObjects`",
+			"tags":"",
+			"url":"symbolobjects.html",
+			"note":""
+		}
+	]
+}
