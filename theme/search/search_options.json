@@ -1,0 +1,19 @@
+{
+	"contextBuffer":60,
+	"contextLength":60,
+	"contextStart":90,
+	"debug":false,
+	"descriptiveWords":25,
+	"footerPages":3,
+	"highlightTerms":true,
+	"imageZoom":true,
+	"minimumLength":3,
+	"newWindow":false,
+	"show":10,
+	"showContext":true,
+	"showRelated":true,
+	"showTime":true,
+	"showTitleCount":true,
+	"showURL":true,
+	"wholeWords":false
+}
