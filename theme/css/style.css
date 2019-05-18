@@ -1,535 +1,256 @@
-/*
-
-body styles
-
-*/
-
-body {
-  background-color: #ccc;
-}
-
-/*
-
-anchor styles
-
-*/
-
-a {
-  color: #333;
-  text-decoration: none;
-}
-
-a:focus,
-a:hover {
-  color: #405980;
-}
-
-a code {
-  display: inline-block;
-  text-decoration: none;
-}
-
-a code:hover, a code:focus {
-  display: inline-block;
-  color:#405980;
-}
-
-/*
-
-blockquote styles
-
-*/
-
-blockquote {
-  color: #818a91;
-  font-style: italic;
-}
-
-/*
-
-selection styles
-
-*/
-
-::selection {
-  background: #80b3ff;
-  color: #fff;
-  text-shadow: none;
-}
-
-/*
-
-hr styles
-
-*/
-
-hr {
-  margin: 1.5rem 0;
-}
-
-/*
-
-container styles
-
-*/
-
-.container {
-  width: 100%;
-  max-width: 960px;
-}
-
-/*
-
-header styles
-
-*/
-
-.header body {
-  color: white;
-}
-
-.header a {
-  color: white;
-}
-
-.header a:focus,
-.header a:hover {
-  color: #ff0000;
-}
-
-.header {
-  height: 125px;
-}
-
-.header img {
-  margin-bottom: 1rem;
-}
-
-.header .title {
-  font-weight: bold;
-  margin: 0rem 1rem 0rem 1rem;
-  display: inline-block;
-  float: left;
-}
-
-.header ul,
-.header li {
-  margin-bottom: .5rem;
-}
-
-/*
-
-hn styles
-
-*/
-
-.page-header {
-
-  color: #a20000;
-  padding: 25px 0;
-  margin: 0;
-
-}
-
-h4 .title {
-  text-align:
-}
-
-
-/*
-
-main styles
-
-*/
-
-.main {
-  background: #ccc;
-  width: 100%;
-  min-height: 800px;
-}
 
 .main-content {
-  background: #fafafa;
-  width: 100%;
-  min-height: 800px;
+  padding-top: 50px;
+  min-height: 500px;
 }
 
-/*
-
-footer styles
-
-*/
-
-.footer {
-  padding: 1.5rem 0 .5rem;
-  border-top: 1px solid rgba(0,0,0,.1);
-  background: #ccc;
+.sidebar-box {
+  min-height: 500px;
 }
 
-p.acknowledgement {
-  float:right;
+#sidebar .list-group, #sidebar .list-group-item {
+    background-color: transparent;
 }
-
-p.acknowledgement a{
-  color: #a25555;
-}
-
-/*
-
-top-bar styles
-
-*/
-
-.top-bar {
-
-  height: 100%;
-  width: 100%;
-  max-width: none;
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  background-color: #a20000;
-  color: white;
-}
-
-.top-bar .bubble {
-  background: rgba(64,89,128,.8);
-  padding: 10px 25px 10px 25px;
-  min-width: 350px;
-  max-width: 500px;
-}
-
-.top-bar a:hover {
-  text-decoration: none;
-
-}
-
-.site-title {
-
-  height: 90px;
-  width: 100%;
-  padding: .5rem 0 .5rem .5rem;
-
-}
-
-.site-links {
-  background: url(../img/bar.png);
-  height: 35px;
-  width: 100%;
-  border-bottom: solid 1px rgba(128,128,128,.5);
-  padding: 0 15px;
-
-}
-
-.site-links a {
-  color: #a20000;
-  display:inline-block;
-  width: 100%;
-  padding: 5px 10px 5px 10px;
-  border-right: 1px solid rgba(128,128,128,.3);
-  margin: 0;
-}
-
-.site-links a:hover {
-  background: url(../img/redbar.png);
-  /*background-size: 10px 100%;
-  background-repeat: repeat-x;*/
-  color: white;
-}
-
-.site-links .list-inline-item {
-  margin: 0 0 0 -5px;
-}
-
-/*
-
-left-content styles
-
-*/
-
-.left-content {
-  background-color: #fff;
-  width: auto;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding: 1.5rem 2.5rem 2.5rem 1.5rem;
-  clear: none;
-}
-
-/*
-
-about-blurb styles
-
-*/
-
-.about-block {
-  margin-bottom: 50px;
-  width: 100%;
-  /*text-align:center;*/
-}
-
-.about-blub {
-  padding: 15px 25px 15px 25px;
-  border-top: 1px solid rgba(128,128,128,.3);
-  border-bottom: 1px solid rgba(128,128,128,.3);
-  width: 70%;
-  float: center;
-  text-align: left;
-  /*margin: auto;*/
-}
-
-.about-blub .content {
-  font-size: small;
-}
-
-/*
-
-article styles
-
-*/
-
-
-article .content h1 {
-  color: #a20000;
-}
-
-article .content h2 {
-  width: 80%;
-  margin-bottom: 25px;
-  margin-top: 10px;
-}
-
-article .content h3 {
-  color: #a25555;
-}
-
-
-/*
-
-bubble styles
-
-*/
-
-.bubble {
-  border: 1px solid rgba(64,89,128,.2);
-  border-radius: 5px;
-  padding-top: 10px;
-  padding-left: none;
-}
-
-.bubble p {
-  color: #bbb;
-  padding: 5px 5px 5px 10px;
-  width: 100%;
-  float: center;
-}
-
-/*
-
-search results
-
-*/
 
 .search-results-panel {
-  text-align: left;
-  border: 1px solid rgba(64,89,128,.2);
-  background-color: white;
-  border-radius: 5px;
-  padding: 50px;
-  min-height: 250px;
-  margin-top: 50px;
+    margin: 20px;
 }
 
-.search-results-panel .tipue_search_content_title {
-  margin-left: -20px;
+/* for list-groups nested within a list-group-item, reset the bottom margin */
+.list-group-item > .list-group {
+    margin-bottom: 0px;
 }
 
-/*
-
-misc styles
-
-*/
-
-.centered {
-  text-align: center;
+/* for list-group-items nested within a list-group-item, reset the bottom
+   padding of the last item, b/c the containing item has paddimg already
+ */
+.list-group-item .list-group-item:last-child {
+    padding-bottom: 0px;
 }
 
-/*
-
-paclet styles
-
-*/
-
-
-.paclet {
-  text-align: left;
-  background: #fff;
-  padding: 0;
-  margin: 25px auto 25px auto;
-  width: 80%;
-  min-width: 250px;
-  min-height: 250px;
-  border: 1px solid rgba(64,89,128,.2);
-  border-radius: 5px;
+.list-group-item {
+    border: none;
 }
 
-.paclet h4 {
-  position: relative;
-  background: #333;
-  display:inline-block;
-  color: white;
-  width: 100%;
-  height: 100px;
-  padding: 15px 25px;
-  border-radius: 5px 5px 0px 0px;
-  margin: 0;
+.tag-0 {
+    font-size: 16pt;
 }
 
-.paclet h4 a {
-  color: white;
+.tag-1 {
+    font-size: 13pt;
 }
 
-.paclet-summary {
-  padding: 35px 25px;
-  border-radius: 0px 0px 5px 5px;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  min-height: 150px;
+.tag-2 {
+    font-size: 10pt;
 }
 
-/*
-
-floating styles
-
-*/
-
-.floating {
-  box-shadow: 1px 1px 1px rgba(128,128,128,.5);
+.tag-3 {
+    font-size: 8pt;
 }
 
-/*
-
-inset styles
-
-*/
-
-.inset {
-  box-shadow: inset 1px 1px 1px rgba(200,200,200,.5);
+.tag-4 {
+    font-size: 6pt;
 }
 
-/*
-
-highlight styles
-
-*/
-
-.highlight pre {
-  border: 1px solid rgba(0,0,0,.1);
-  padding: 1rem;
+#aboutme {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    -ms-word-break: normal;
+    word-break: normal;
 }
 
-/*
-
-pagination styles
-
-*/
-
-.pagination .page-link {
-  color: #333;
+#sidebar {
+    padding-top: 0px;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
 }
 
-/*
-
-teaser styles
-
-*/
-
-.teaser header ul {
-  list-style: none;
-  padding-left: 0;
+#sidebar a {
+    color: inherit;
 }
 
-.teaser header li {
-  margin-bottom: .5rem;
+.icon-label {
+    margin-left: 10px;
 }
 
-.teaser .content p {
-  margin-bottom: 0;
+/* Example for how to control spacing between icon and label in specific
+   lists in the sidebar. To change, override in your CUSTOM_CSS           */
+#sidebar #social i {
+    margin-right: 3px;
 }
 
-/*
-
-right-bar styles
-
-*/
-
-.right-bar {
-  width: 200;
-
+a, a:hover {
+    color: inherit;
 }
 
-/*
-
-article styles
-
-*/
-
-.article header ul,
-.article header li {
-  margin-bottom: .5rem;
+.entry-content a {
+    text-decoration: none;
+    border-bottom: 1px dotted;
 }
 
-.article header li:not(:last-child) {
-  margin-right: 10px;
+.entry-content a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid;
 }
 
-.article .content {
-  text-align: left;
-  background: white;
-  width: 80%;
-  height: 100%;
-  border-radius: 5px;
-  padding: 15px 25px;
-  margin: 15px auto;
-  border: 1px solid rgba(64,89,128,.2);
-  border-radius: 5px;
+.entry-content img {
+    max-width: 100%;
+    height: auto;
 }
 
-.article .content a {
-  text-decoration: underline;
-  color: #a25555;
+.entry-content figcaption, .caption {
+    font-size: small;
+    margin-bottom: 2px;
 }
 
-/*
-
-media specifications
-
-*/
-
-
-@media (min-width: 576px) {
-  .header .title {
-    font-size: 3rem;
-  }
+.summary {
+  min-height: 50px;
+  overflow: hidden;
 }
 
-@media (max-width: 576px) {
+.summary img {
+    max-width: 100%;
+    height: auto;
+}
 
-  .right-bar {
-    width: 0px;
-    min-width: 0px;
-  }
 
-  .header,
-  .footer {
-    text-align: center;
-  }
+.floatright, .align-right {
+    float: right;
+}
 
-  .teaser header li {
-    display: inline-block;
-  }
+.floatleft, .align-left {
+    float: left;
+}
 
-  .teaser header li:not(:last-child) {
+.floatcenter, .align-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure.floatright, .align-right {
+    margin-left: 4px;
+}
+
+figure.floatleft, .align-left {
+    margin-right: 4px;
+}
+
+figure.floatcenter, .align-center {
+    margin-bottom: 11px;
+}
+
+.highlighttable pre {
+    /* Removes bootstrap default margin-bottom */
+    margin-bottom: 0px;
+}
+
+.highlighttable {
+    /* Adds them margin-bottom to highlightable instead of <pre> */
+    margin-bottom: 11px;
+}
+
+.highlighttable {
+    width: 100%;
+}
+
+#categories ul, #tags ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.docutils.footnote td.label {
+    display: table-cell;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    text-align: inherit;
+    white-space: inherit;
+    border-radius: inherit;
+}
+
+.categories-timestamp {
+    color: #AAAAAA;
+    font-size: 0.9em;
     margin-right: 10px;
-  }
+}
+
+.tagcloud li {
+    padding: 0px;
+}
+
+#banner {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #C4C4C4;
+    margin: 0 0 20px;
+    padding: 70px 0; /*controls padding around inner text*/
+    position: relative;
+}
+
+#banner .copy {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    display: inline;
+    float: left;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner h1 {
+    color: #fff;
+    font-family: "HelveticaNeue-CondensedBold","Helvetica Neue CE 600 Condensed","Helvetica Neue LT Condensed","Helvetica Neue 600 Condensed","HelveticaNeue-BoldCondensed","Helvetica Neue BoldCondensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 60px;
+    font-stretch: condensed;
+    font-weight: 700;
+    line-height: 0.9;
+    margin: 0;
+    text-transform: uppercase;
+}
+#banner .intro {
+    color: #fff;
+    font-size: 21px;
+    line-height: 1.33;
+    opacity: 0.75;
+}
+#banner .btn, #banner .intro {
+    margin-left: 4px;
+}
+
+/* Solutions for mobile and small screens  */
+@media (max-width: 650px) {
+    #banner h1{
+       font-size: 30px; /* !important;*/
+    }
+    #banner .intro{
+        font-size: 16px;
+    }
+}
+
+:target:before {
+  content:"";
+  display:block;
+  height:50px;
+  /* fixed header height*/
+
+  margin:-50px 0 0;
+  /* negative fixed header height */
+}
+
+.gap-right {
+    margin-right: 10px;
+}
+
+.gap-left {
+  margin-left: 10px;
 }
