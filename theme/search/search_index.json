@@ -100,7 +100,7 @@
 		},
 		{
 			"title":"Ems",
-			"text":"‌   Ems  \n  Download    \nA static website builder like pelican or jekyll. Comes with built in themes and the ability to develop one's own.   \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.11   ‌   Creator  \n  b3m2a1     ‌   URL  \n  https:\/\/github.com\/b3m2a1\/Ems\/wiki     ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\n  Icons     Templates     Themes     {banner, Icons\/banner.png}     {banner_tall, Icons\/banner_tall.png}     {favicon-16x16, Icons\/favicon-16x16.png}     {favicon-32x32, Icons\/favicon-32x32.png}     {SiteConfig, Templates\/blog\/SiteConfig.wl}     {blog, Templates\/blog}     {content, Templates\/blog\/content}     {docs, Templates\/docs}     {portfolio, Templates\/portfolio}     {scroll, Templates\/scroll}     {bootstrap-blog, Themes\/bootstrap-blog}     {static, Themes\/bootstrap-blog\/static}     {templates, Themes\/bootstrap-blog\/templates}     {bootstrap-docs, Themes\/bootstrap-docs}     {bootstrap-portfolio, Themes\/bootstrap-portfolio}     {bootstrap-single-page, Themes\/bootstrap-single-page}",
+			"text":"‌   Ems  \n      \n  Download    \nA static website builder like pelican or jekyll. Comes with built in themes and the ability to develop one's own.   \n\n  ‌   Basic Information   ‌   Name  \nEms   ‌   Version  \n1.0.11   ‌   Creator  \n  b3m2a1     ‌   URL  \n  https:\/\/github.com\/b3m2a1\/Ems\/wiki     ‌   License  \nMIT   \n\n  ‌   Extra Information   ‌   MathematicaVersion  \n11+   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: Ems`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Resource  \nRoot: Resources Resources\n  Icons     Templates     Themes     {banner, Icons\/banner.png}     {banner_tall, Icons\/banner_tall.png}     {favicon-16x16, Icons\/favicon-16x16.png}     {favicon-32x32, Icons\/favicon-32x32.png}     {SiteConfig, Templates\/blog\/SiteConfig.wl}     {blog, Templates\/blog}     {content, Templates\/blog\/content}     {docs, Templates\/docs}     {portfolio, Templates\/portfolio}     {scroll, Templates\/scroll}     {bootstrap-blog, Themes\/bootstrap-blog}     {static, Themes\/bootstrap-blog\/static}     {templates, Themes\/bootstrap-blog\/templates}     {bootstrap-docs, Themes\/bootstrap-docs}     {bootstrap-portfolio, Themes\/bootstrap-portfolio}     {bootstrap-single-page, Themes\/bootstrap-single-page}",
 			"tags":"",
 			"url":"ems.html",
 			"note":""
@@ -226,7 +226,7 @@
 		},
 		{
 			"title":"ServiceConnection_StackExchange",
-			"text":"‌   StackExchange (ServiceConnection)  \n  Download    \nA service connection to the Stack Exchange API. Supports the majority of the functions defined in the API   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_StackExchange   ‌   Version  \n1.1.8   ‌   Creator  \n  b3m2a1@gmail.com    \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
+			"text":"‌   StackExchange (ServiceConnection)  \n      \n  Download    \nA service connection to the Stack Exchange API. Supports the majority of the functions defined in the API   \n\n  ‌   Basic Information   ‌   Name  \nServiceConnection_StackExchange   ‌   Version  \n1.1.8   ‌   Creator  \n  b3m2a1@gmail.com    \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   FrontEnd  \nThis extension has no extra parameters",
 			"tags":"web serviceconnection",
 			"url":"serviceconnectionstackexchange.html",
 			"note":""
@@ -247,7 +247,7 @@
 		},
 		{
 			"title":"SimpleDocs",
-			"text":"‌   SimpleDocs  \n  Download    \nA simple package to make simple documentation   \n\n  ‌   Basic Information   ‌   Name  \nSimpleDocs   ‌   Version  \n1.1.4   ‌   Creator  \n  b3m2a1     ‌   URL  \n  https:\/\/github.com\/b3m2a1\/SimpleDocs     ‌   License  \nMIT   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SimpleDocs`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Documentation  \nLanguage: English MainPage: Guides\/SimpleDocs   ‌   Resource  \nRoot: Resources Resources\n  {icon_big, icon_big.png}     {icon, icon.png}     {SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}",
+			"text":"‌   SimpleDocs  \n      \n  Download    \nA simple package to make simple documentation   \n\n  ‌   Basic Information   ‌   Name  \nSimpleDocs   ‌   Version  \n1.1.4   ‌   Creator  \n  b3m2a1     ‌   URL  \n  https:\/\/github.com\/b3m2a1\/SimpleDocs     ‌   License  \nMIT   \n\n  ‌   Extra Information  \nThis package provides no extra information   \n\n  ‌   Extensions   ‌   Kernel  \nRoot: . Context: SimpleDocs`   ‌   FrontEnd  \nThis extension has no extra parameters   ‌   Documentation  \nLanguage: English MainPage: Guides\/SimpleDocs   ‌   Resource  \nRoot: Resources Resources\n  {icon_big, icon_big.png}     {icon, icon.png}     {SimpleDocsHelperGenerator, SimpleDocsHelperGenerator.nb}",
 			"tags":"documentation",
 			"url":"simpledocs.html",
 			"note":""
