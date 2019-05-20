@@ -21,12 +21,12 @@
       <div class="summary">
         <wolfram:which>
 
-          <wolfram:if test='MatchQ[#IndexItem["Description"], Except[_Missing|False|""]]'>
-            <wolfram:expr>#IndexItem["Description"]</wolfram:expr>
+          <wolfram:if test='MatchQ[#Article["Description"], Except[_Missing|False|""]]'>
+            <wolfram:expr>#Article["Description"]</wolfram:expr>
           </wolfram:if>
 
           <wolfram:else>
-            <wolfram:expr>#IndexItem["Summary"]</wolfram:expr>
+            <wolfram:expr>#Article["Summary"]</wolfram:expr>
           </wolfram:else>
 
         </wolfram:which>

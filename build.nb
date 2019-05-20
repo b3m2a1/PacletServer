@@ -16,29 +16,35 @@ Notebook[{Cell[CellGroupData[{Cell["Load BTools", "Section",
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
                 {"\"CurrentBranch\"", ",", " ", "dir"}], "]"}]], "Input", 
             CellChangeTimes -> {{3.767304518865903*^9, 
-             3.767304523042736*^9}}, CellLabel -> "In[194]:="], 
+             3.767304523042736*^9}}, CellLabel -> "In[197]:="], 
            Cell[BoxData["\"master\""], "Output", CellChangeTimes -> 
              {3.767304523343771*^9, 3.7673074961890717*^9, 
              3.7673079711589727*^9, 3.767308670786029*^9, 
-             3.7673097039682817*^9}, CellLabel -> "Out[194]="]}, Open]], 
+             3.7673097039682817*^9, 3.767309747589164*^9}, 
+            CellLabel -> "Out[197]="]}, Open]], 
         Cell[BoxData[RowBox[{"Git", "[", RowBox[{"\"LogDataset\"", ",", " ", 
               "dir"}], "]"}]], "Input", CellLabel -> "In[195]:="]}, Open]], 
      Cell[CellGroupData[{Cell["Build", "Subsection", CellChangeTimes -> 
           {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"PacletServerBuild", "[", 
-               "\"Default\"", "\[IndentingNewLine]", RowBox[{"(*", " ", 
-                 RowBox[{RowBox[{RowBox[{"do", " ", "I", " ", "have", " ", 
-                       "any", " ", "options", " ", "to", " ", "bundle"}], 
-                     "..."}], "?"}], " ", "*)"}], "\[IndentingNewLine]", 
-               "]"}]], "Input", CellChangeTimes -> {{3.7673025329473553*^9, 
-             3.767302550443425*^9}}, CellLabel -> "In[162]:="], 
-           Cell[BoxData["\"/Users/Mark/Library/Mathematica/ApplicationData/We\
-bSites/PacletServer/docs\""], "Output", CellChangeTimes -> 
-             {3.767302725551631*^9, 3.767303175850616*^9, 
-             3.7673033435749083*^9, 3.767307775024222*^9, 
-             3.7673081917507343*^9}, CellLabel -> "Out[162]="]}, Open]]}, 
-       Open]], Cell[CellGroupData[{Cell["Deploy", "Subsection", 
-         CellChangeTimes -> {{3.767302554894455*^9, 3.7673025555866623*^9}, 
+        Cell[CellGroupData[{Cell[BoxData[RowBox[{RowBox[{"PacletServerBuild", 
+                 "[", "\"Default\"", "\[IndentingNewLine]", RowBox[
+                  {"(*", " ", RowBox[{RowBox[{RowBox[{"do", " ", "I", " ", 
+                         "have", " ", "any", " ", "options", " ", "to", " ", 
+                         "bundle"}], "..."}], "?"}], " ", "*)"}], 
+                 "\[IndentingNewLine]", "]"}], "//", "Quiet"}]], "Input", 
+            CellChangeTimes -> {{3.7673025329473553*^9, 
+             3.767302550443425*^9}, {3.767309763983575*^9, 
+             3.767309765044729*^9}}, CellLabel -> "In[198]:="], 
+           Cell[BoxData[DynamicBox[ToBoxes[If[StringQ[
+                 BTools`Paclets`PacletTools`Private`md], 
+                Internal`LoadingPanel[TemplateApply["Generating ``", 
+                  BTools`Paclets`PacletTools`Private`md]], ""], 
+               StandardForm], Evaluator -> "Local", ImageSizeCache -> {544., 
+                {20., 26.}}]], "PrintTemporary", CellChangeTimes -> 
+             {3.7673097670565853*^9}, CellLabel -> 
+             "During evaluation of In[198]:="]}, Open]]}, Open]], 
+     Cell[CellGroupData[{Cell["Deploy", "Subsection", CellChangeTimes -> 
+          {{3.767302554894455*^9, 3.7673025555866623*^9}, 
           {3.7673038211114483*^9, 3.767303821477371*^9}}], 
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"PacletServerDeploy", "[", 
                "\"Default\"", "\[IndentingNewLine]", RowBox[{"(*", " ", 
@@ -46,16 +52,16 @@ bSites/PacletServer/docs\""], "Output", CellChangeTimes ->
                        "any", " ", "options", " ", "to", " ", "bundle"}], 
                      "..."}], "?"}], " ", "*)"}], "\[IndentingNewLine]", 
                "]"}]], "Input", CellChangeTimes -> {{3.7673025329473553*^9, 
-             3.767302560204956*^9}}, CellLabel -> "In[192]:="], 
+             3.767302560204956*^9}}, CellLabel -> "In[196]:="], 
            Cell[BoxData[RowBox[{"\[LeftAssociation]", RowBox[
                 {RowBox[{"\"Remote\"", "\[Rule]", 
                    "\"https://github.com/b3m2a1/PacletServer\""}], ",", 
                  RowBox[{"\"Commit\"", "\[Rule]", "\"On branch \
 gh-pages\\nnothing to commit, working tree clean\""}], ",", RowBox[
                   {"\"Results\"", "\[Rule]", "\"To \
-https://github.com/b3m2a1/PacletServer\\n   cf4b78a..3db8ee2  gh-pages -> \
+https://github.com/b3m2a1/PacletServer\\n   3db8ee2..1c4f974  gh-pages -> \
 gh-pages\""}]}], "\[RightAssociation]"}]], "Output", CellChangeTimes -> 
-             {3.767309345382669*^9}, CellLabel -> "Out[192]="]}, Open]]}, 
-       Open]]}, Open]]}, FrontEndVersion -> 
-  "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
+             {3.767309345382669*^9, 3.7673097245011377*^9}, 
+            CellLabel -> "Out[196]="]}, Open]]}, Open]]}, Open]]}, 
+ FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
  StyleDefinitions -> "Default.nb"]
