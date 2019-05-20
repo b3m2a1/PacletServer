@@ -72,6 +72,8 @@ Cell[BoxData["\<\"master\"\>"], "Output",
   "Out[197]=",ExpressionUUID->"d192ec31-daf6-444f-8e2f-b5834b9fe0aa"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Git", "[", 
   RowBox[{"\"\<LogDataset\>\"", ",", " ", "dir"}], "]"}]], "Input",
