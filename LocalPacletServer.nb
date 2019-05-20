@@ -70,6 +70,9 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Git", "[", 
   RowBox[{"\"\<LogDataset\>\"", ",", " ", "dir"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7673048675511093`*^9, 3.767304894532436*^9}, {
+   3.76730493115863*^9, 3.767304935683899*^9}, {3.767305092611814*^9, 
+   3.7673050971538982`*^9}, 3.7673058558154488`*^9},
  CellLabel->
   "In[195]:=",ExpressionUUID->"0aead4d7-23bb-4fa1-b32d-7478e8221b4d"]
 }, Open  ]],
