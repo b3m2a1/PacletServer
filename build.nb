@@ -16,45 +16,17 @@ Notebook[{Cell[CellGroupData[{Cell["Load BTools", "Section",
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
                 {"\"CurrentBranch\"", ",", " ", "dir"}], "]"}]], "Input", 
             CellChangeTimes -> {{3.767304518865903*^9, 
-             3.767304523042736*^9}}, CellLabel -> "In[168]:="], 
-           Cell[BoxData["\"gh-pages\""], "Output", CellChangeTimes -> 
-             {3.767304523343771*^9, 3.7673074961890717*^9, 
-             3.7673079711589727*^9, 3.767308670786029*^9}, 
-            CellLabel -> "Out[168]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
-                {"\"Checkout\"", ",", " ", "dir", ",", " ", "\"master\"", 
-                 ",", " ", RowBox[{"\"Force\"", "\[Rule]", "True"}]}], 
-               "]"}]], "Input", CellChangeTimes -> {{3.7673086727846193*^9, 
-             3.7673086789818974*^9}}, CellLabel -> "In[169]:="], 
-           Cell[BoxData["\"Switched to branch 'master'\""], "Output", 
-            CellChangeTimes -> {3.7673086793662853*^9}, CellLabel -> 
-             "Out[169]="]}, Open]], 
+             3.767304523042736*^9}}, CellLabel -> "In[69]:="], 
+           Cell[BoxData["\"master\""], "Output", CellChangeTimes -> 
+             {3.767304523343771*^9}, CellLabel -> "Out[69]="]}, Open]], 
         Cell[BoxData[RowBox[{"Git", "[", RowBox[{"\"LogDataset\"", ",", " ", 
-              "dir"}], "]"}]], "Input", CellLabel -> "In[172]:="], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
-                {"\"Reset\"", ",", " ", "dir", ",", 
-                 "\"9049b7050b0a636911feb2a1dbf78a1d862d9c8b\"", ",", "  ", 
-                 RowBox[{"\"Hard\"", "\[Rule]", "True"}]}], "]"}]], "Input", 
-            CellChangeTimes -> {{3.767307975724637*^9, 
-             3.7673080014490213*^9}}, CellLabel -> "In[170]:="], 
-           Cell[BoxData["\"HEAD is now at 9049b70 ...\""], "Output", 
-            CellChangeTimes -> {{3.767307984273589*^9, 3.767308001756686*^9}, 
-              3.767308681727309*^9}, CellLabel -> "Out[170]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[{RowBox[{RowBox[{"Git", "[", 
-                  RowBox[{"\"Add\"", ",", " ", "dir", ",", " ", RowBox[
-                     {"\"All\"", "\[Rule]", "True"}]}], "]"}], ";"}], 
-              "\[IndentingNewLine]", RowBox[{"Git", "[", RowBox[
-                 {"\"Commit\"", ",", " ", "dir", ",", " ", RowBox[
-                   {"\"Message\"", "\[Rule]", "\"testing...\""}]}], "]"}]}], 
-            "Input", CellChangeTimes -> {{3.7673075964432287*^9, 
-             3.767307617951577*^9}, {3.767308023351396*^9, 
-             3.767308025845531*^9}}, CellLabel -> "In[163]:="], 
-           Cell[BoxData["\"[master 3f990f7] testing...\\n 4 files changed, \
-409 insertions(+), 59 deletions(-)\""], "Output", CellChangeTimes -> 
-             {{3.7673076183870907*^9, 3.76730763764565*^9}, 
-              3.7673082722872047*^9}, CellLabel -> "Out[164]="]}, Open]]}, 
-       Open]], Cell[CellGroupData[{Cell["Build", "Subsection", 
-         CellChangeTimes -> {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
+              "dir"}], "]"}]], "Input", CellChangeTimes -> 
+          {{3.7673048675511093*^9, 3.767304894532436*^9}, 
+           {3.76730493115863*^9, 3.767304935683899*^9}, 
+           {3.767305092611814*^9, 3.7673050971538982*^9}, 
+           3.7673058558154488*^9}, CellLabel -> "In[120]:="]}, Open]], 
+     Cell[CellGroupData[{Cell["Build", "Subsection", CellChangeTimes -> 
+          {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"PacletServerBuild", "[", 
                "\"Default\"", "\[IndentingNewLine]", RowBox[{"(*", " ", 
                  RowBox[{RowBox[{RowBox[{"do", " ", "I", " ", "have", " ", 

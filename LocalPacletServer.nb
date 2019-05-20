@@ -9,11 +9,11 @@
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[     10816,        297]
-NotebookOptionsPosition[      6660,        203]
-NotebookOutlinePosition[      8879,        263]
-CellTagsIndexPosition[      8836,        260]
+NotebookDataPosition[         0,          0]
+NotebookDataLength[      7741,        213]
+NotebookOptionsPosition[      4182,        125]
+NotebookOutlinePosition[      6401,        185]
+CellTagsIndexPosition[      6358,        182]
 WindowTitle->EasyIDE: PacletServer
 WindowFrame->Normal*)
 
@@ -71,74 +71,14 @@ Cell[BoxData["\<\"gh-pages\"\>"], "Output",
   "Out[168]=",ExpressionUUID->"3e73cd1b-3908-4998-9eec-d05acbacae84"]
 }, Open  ]],
 
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Git", "[", 
-  RowBox[{
-  "\"\<Checkout\>\"", ",", " ", "dir", ",", " ", "\"\<master\>\"", ",", " ", 
-   RowBox[{"\"\<Force\>\"", "\[Rule]", "True"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.7673086727846193`*^9, 3.7673086789818974`*^9}},
- CellLabel->
-  "In[169]:=",ExpressionUUID->"f583a8c5-12da-4fcb-a7a0-935204db56fd"],
-
-Cell[BoxData["\<\"Switched to branch 'master'\"\>"], "Output",
- CellChangeTimes->{3.7673086793662853`*^9},
- CellLabel->
-  "Out[169]=",ExpressionUUID->"8cdf4ef4-bd4c-4756-94f7-24efa3b76953"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
 Cell[BoxData[
  RowBox[{"Git", "[", 
   RowBox[{"\"\<LogDataset\>\"", ",", " ", "dir"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7673048675511093`*^9, 3.767304894532436*^9}, {
+   3.76730493115863*^9, 3.767304935683899*^9}, {3.767305092611814*^9, 
+   3.7673050971538982`*^9}, 3.7673058558154488`*^9},
  CellLabel->
-  "In[172]:=",ExpressionUUID->"0aead4d7-23bb-4fa1-b32d-7478e8221b4d"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"Git", "[", 
-  RowBox[{
-  "\"\<Reset\>\"", ",", " ", "dir", ",", 
-   "\"\<9049b7050b0a636911feb2a1dbf78a1d862d9c8b\>\"", ",", "  ", 
-   RowBox[{"\"\<Hard\>\"", "\[Rule]", "True"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.767307975724637*^9, 3.7673080014490213`*^9}},
- CellLabel->
-  "In[170]:=",ExpressionUUID->"c5049bb9-1d32-4636-9904-c2774c1f7704"],
-
-Cell[BoxData["\<\"HEAD is now at 9049b70 ...\"\>"], "Output",
- CellChangeTimes->{{3.767307984273589*^9, 3.767308001756686*^9}, 
-   3.767308681727309*^9},
- CellLabel->
-  "Out[170]=",ExpressionUUID->"6e62e964-8935-4b7a-b4c3-84c74a1c121a"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"Git", "[", 
-   RowBox[{"\"\<Add\>\"", ",", " ", "dir", ",", " ", 
-    RowBox[{"\"\<All\>\"", "\[Rule]", "True"}]}], "]"}], 
-  ";"}], "\[IndentingNewLine]", 
- RowBox[{"Git", "[", 
-  RowBox[{"\"\<Commit\>\"", ",", " ", "dir", ",", " ", 
-   RowBox[{"\"\<Message\>\"", "\[Rule]", "\"\<testing...\>\""}]}], 
-  "]"}]}], "Input",
- CellChangeTimes->{{3.7673075964432287`*^9, 3.767307617951577*^9}, {
-  3.767308023351396*^9, 3.767308025845531*^9}},
- CellLabel->
-  "In[163]:=",ExpressionUUID->"c32a0be4-3bad-4a3f-9a37-64189613cb5d"],
-
-Cell[BoxData["\<\"[master 3f990f7] testing...\\n 4 files changed, 409 \
-insertions(+), 59 deletions(-)\"\>"], "Output",
- CellChangeTimes->{{3.7673076183870907`*^9, 3.76730763764565*^9}, 
-   3.7673082722872047`*^9},
- CellLabel->
-  "Out[164]=",ExpressionUUID->"fd6b2f9e-8fcb-40be-815a-8123ca8fe6ab"]
-}, Open  ]]
+  "In[120]:=",ExpressionUUID->"0ad9c802-1e74-4b5e-aca8-32efe3358336"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -271,36 +211,21 @@ Cell[615, 23, 156, 3, 67, "Section",ExpressionUUID->"eed7cb29-126b-462f-84d0-9c5
 Cell[774, 28, 304, 5, 52, "Input",ExpressionUUID->"bc758988-be48-416c-99fa-b7a4c4c25a1a"],
 Cell[1081, 35, 508, 13, 52, "Input",ExpressionUUID->"6aacf593-02dd-45e5-a7c2-509d581ec0a3"],
 Cell[CellGroupData[{
-Cell[1614, 52, 163, 3, 54, "Subsection",ExpressionUUID->"d8035902-dbcd-490e-9fbc-2aee4da627d8"],
-Cell[CellGroupData[{
-Cell[1802, 59, 255, 5, 30, "Input",ExpressionUUID->"c8527a41-a750-46e3-b6e8-e670cf890a3a"],
-Cell[2060, 66, 241, 4, 34, "Output",ExpressionUUID->"3e73cd1b-3908-4998-9eec-d05acbacae84"]
+Cell[1644, 52, 251, 4, 30, "Input",ExpressionUUID->"c8527a41-a750-46e3-b6e8-e670cf890a3a"],
+Cell[1898, 58, 162, 2, 34, "Output",ExpressionUUID->"03f77e67-70e7-4d7c-996d-4b1118e5c404"]
+}, Open  ]],
+Cell[2075, 63, 379, 7, 30, "Input",ExpressionUUID->"0ad9c802-1e74-4b5e-aca8-32efe3358336"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2338, 75, 345, 7, 30, "Input",ExpressionUUID->"f583a8c5-12da-4fcb-a7a0-935204db56fd"],
-Cell[2686, 84, 189, 3, 34, "Output",ExpressionUUID->"8cdf4ef4-bd4c-4756-94f7-24efa3b76953"]
-}, Open  ]],
-Cell[2890, 90, 186, 4, 30, "Input",ExpressionUUID->"0aead4d7-23bb-4fa1-b32d-7478e8221b4d"],
+Cell[2491, 75, 155, 3, 54, "Subsection",ExpressionUUID->"39454a81-acc2-416a-bcb4-f392bdf8e62e"],
 Cell[CellGroupData[{
-Cell[3101, 98, 373, 8, 30, "Input",ExpressionUUID->"c5049bb9-1d32-4636-9904-c2774c1f7704"],
-Cell[3477, 108, 236, 4, 34, "Output",ExpressionUUID->"6e62e964-8935-4b7a-b4c3-84c74a1c121a"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[3750, 117, 558, 13, 52, "Input",ExpressionUUID->"c32a0be4-3bad-4a3f-9a37-64189613cb5d"],
-Cell[4311, 132, 297, 5, 56, "Output",ExpressionUUID->"fd6b2f9e-8fcb-40be-815a-8123ca8fe6ab"]
+Cell[2671, 82, 468, 10, 73, "Input",ExpressionUUID->"030ac318-3106-457e-baa0-23748a413822"],
+Cell[3142, 94, 281, 4, 34, "Output",ExpressionUUID->"88327396-a818-47fd-84a9-dea92aa5a6de"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4657, 143, 155, 3, 54, "Subsection",ExpressionUUID->"39454a81-acc2-416a-bcb4-f392bdf8e62e"],
-Cell[CellGroupData[{
-Cell[4837, 150, 472, 11, 73, "Input",ExpressionUUID->"030ac318-3106-457e-baa0-23748a413822"],
-Cell[5312, 163, 331, 5, 34, "Output",ExpressionUUID->"2e3ec138-278f-46a7-b478-3988f50b8e40"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[5692, 174, 207, 4, 54, "Subsection",ExpressionUUID->"09579b3a-1b49-44b9-9607-1b128c04c446"],
-Cell[5902, 180, 251, 5, 30, "Input",ExpressionUUID->"282f5283-15cf-489b-a249-6b6270497fa5"],
-Cell[6156, 187, 476, 12, 73, "Input",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
+Cell[3472, 104, 207, 4, 54, "Subsection",ExpressionUUID->"09579b3a-1b49-44b9-9607-1b128c04c446"],
+Cell[3682, 110, 472, 11, 73, "Input",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
 }, Open  ]]
 }, Open  ]]
 }
