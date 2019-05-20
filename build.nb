@@ -16,53 +16,10 @@ Notebook[{Cell[CellGroupData[{Cell["Load BTools", "Section",
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
                 {"\"CurrentBranch\"", ",", " ", "dir"}], "]"}]], "Input", 
             CellChangeTimes -> {{3.767304518865903*^9, 
-             3.767304523042736*^9}}, CellLabel -> "In[69]:="], 
-           Cell[BoxData["\"master\""], "Output", CellChangeTimes -> 
-             {3.767304523343771*^9}, CellLabel -> "Out[69]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{RowBox[{"Git", "[", 
-                 RowBox[{"\"LogDataset\"", ",", " ", "dir"}], "]"}], "[", 
-               RowBox[{"[", RowBox[{"2", ",", " ", "\"Commit\""}], "]"}], 
-               "]"}]], "Input", CellChangeTimes -> {{3.7673048675511093*^9, 
-             3.767304894532436*^9}, {3.76730493115863*^9, 
-             3.767304935683899*^9}, {3.767305092611814*^9, 
-             3.7673050971538982*^9}}, CellLabel -> "In[100]:="], 
-           Cell[BoxData["\"3c96f433b491e07d2143ad5787bb73936c6fadd2\""], 
-            "Output", CellChangeTimes -> {3.767304936097753*^9, 
-              3.767304985606496*^9, {3.767305091556163*^9, 
-              3.767305097453521*^9}}, CellLabel -> "Out[100]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
-                {"\"Checkout\"", ",", " ", "dir", ",", " ", "\"master\""}], 
-               "]"}]], "Input", CellChangeTimes -> {{3.767304518865903*^9, 
-             3.767304523042736*^9}, {3.767304994349666*^9, 
-             3.767304998394874*^9}, {3.767305071987845*^9, 
-             3.767305073742379*^9}}, CellLabel -> "In[97]:="], 
-           Cell[BoxData["\"Switched to branch 'master'\""], "Output", 
-            CellChangeTimes -> {3.767304998803012*^9, 3.7673050745526123*^9}, 
-            CellLabel -> "Out[97]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
-                {"\"Reset\"", ",", " ", "dir", ",", " ", 
-                 "\"3c96f433b491e07d2143ad5787bb73936c6fadd2\"", ",", " ", 
-                 RowBox[{"\"Hard\"", "\[Rule]", "True"}]}], "]"}]], "Input", 
-            CellChangeTimes -> {{3.7673048675511093*^9, 
-             3.767304894532436*^9}, {3.76730493115863*^9, 
-             3.767304935683899*^9}, {3.767305087499299*^9, 
-             3.7673051097929487*^9}}, CellLabel -> "In[101]:="], 
-           Cell[BoxData["\"HEAD is now at 3c96f43 messing around...\""], 
-            "Output", CellChangeTimes -> {3.767305001889453*^9, 
-              {3.767305064083407*^9, 3.7673051107785177*^9}}, 
-            CellLabel -> "Out[101]="]}, Open]], 
-        Cell[CellGroupData[{Cell[BoxData[RowBox[{"Git", "[", RowBox[
-                {"\"Checkout\"", ",", " ", "dir", ",", " ", "\"gh-pages\""}], 
-               "]"}]], "Input", CellChangeTimes -> {{3.767304518865903*^9, 
-              3.767304523042736*^9}, {3.767304994349666*^9, 
-              3.767304998394874*^9}, {3.767305071987845*^9, 
-              3.767305073742379*^9}, 3.7673053921912823*^9}, 
-            CellLabel -> "In[102]:="], Cell[BoxData["\"error: Your local \
-changes to the following files would be overwritten by \
-checkout:\\n\\tLocalPacletServer.nb\\n\\tbuild.nb\\nPlease commit your \
-changes or stash them before you switch branches.\\nAborting\""], "Output", 
-            CellChangeTimes -> {3.767305393721346*^9}, CellLabel -> 
-             "Out[102]="]}, Open]]}, Open]], 
+             3.767304523042736*^9}}, CellLabel -> "In[140]:="], 
+           Cell[BoxData["\"gh-pages\""], "Output", CellChangeTimes -> 
+             {3.767304523343771*^9, 3.7673074961890717*^9}, 
+            CellLabel -> "Out[140]="]}, Open]]}, Open]], 
      Cell[CellGroupData[{Cell["Build", "Subsection", CellChangeTimes -> 
           {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"PacletServerBuild", "[", 
@@ -85,6 +42,6 @@ bSites/PacletServer/docs\""], "Output", CellChangeTimes ->
                     "options", " ", "to", " ", "bundle"}], "..."}], "?"}], 
               " ", "*)"}], "\[IndentingNewLine]", "]"}]], "Input", 
          CellChangeTimes -> {{3.7673025329473553*^9, 3.767302560204956*^9}}, 
-         CellLabel -> "In[88]:="]}, Open]]}, Open]]}, 
+         CellLabel -> "In[121]:="]}, Open]]}, Open]]}, 
  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
  StyleDefinitions -> "Default.nb"]
