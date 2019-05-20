@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10469,        289]
-NotebookOptionsPosition[      6406,        196]
-NotebookOutlinePosition[      8625,        256]
-CellTagsIndexPosition[      8582,        253]
+NotebookDataLength[     10816,        297]
+NotebookOptionsPosition[      6660,        203]
+NotebookOutlinePosition[      8879,        263]
+CellTagsIndexPosition[      8836,        260]
 WindowTitle->EasyIDE: PacletServer
 WindowFrame->Normal*)
 
@@ -179,6 +179,13 @@ Cell["Deploy", "Subsection",
 1b128c04c446"],
 
 Cell[BoxData[
+ RowBox[{"Git", "[", 
+  RowBox[{"\"\<LogDataset\>\"", ",", " ", "dir"}], "]"}]], "Input",
+ CellChangeTimes->{{3.76730897706147*^9, 3.767308983090835*^9}},
+ CellLabel->
+  "In[175]:=",ExpressionUUID->"282f5283-15cf-489b-a249-6b6270497fa5"],
+
+Cell[BoxData[
  RowBox[{"PacletServerDeploy", "[", "\"\<Default\>\"", "\[IndentingNewLine]", 
   
   RowBox[{"(*", " ", 
@@ -190,7 +197,7 @@ Cell[BoxData[
   "]"}]], "Input",
  CellChangeTimes->{{3.7673025329473553`*^9, 3.767302560204956*^9}},
  CellLabel->
-  "In[167]:=",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
+  "In[173]:=",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -201,7 +208,7 @@ NotebookEventActions->{{"MenuCommand", "Save"} :>
    EasyIDE`Notebooks`Manipulation`EnsureNotebookUpdated[
      EvaluationNotebook[]]), PassEventsDown -> True, EvaluationOrder -> After},
 WindowSize->{808, 755},
-WindowMargins->{{169, Automatic}, {Automatic, 29}},
+WindowMargins->{{Automatic, 310}, {40, Automatic}},
 WindowTitle->"EasyIDE: PacletServer",
 TaggingRules->{
  "EasyIDE" -> {
@@ -288,7 +295,8 @@ Cell[5312, 163, 331, 5, 34, "Output",ExpressionUUID->"2e3ec138-278f-46a7-b478-39
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[5692, 174, 207, 4, 54, "Subsection",ExpressionUUID->"09579b3a-1b49-44b9-9607-1b128c04c446"],
-Cell[5902, 180, 476, 12, 73, "Input",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
+Cell[5902, 180, 251, 5, 30, "Input",ExpressionUUID->"282f5283-15cf-489b-a249-6b6270497fa5"],
+Cell[6156, 187, 476, 12, 73, "Input",ExpressionUUID->"ce7d8e89-cf8c-4008-adfb-4dfaefeed767"]
 }, Open  ]]
 }, Open  ]]
 }

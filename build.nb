@@ -70,12 +70,16 @@ bSites/PacletServer/docs\""], "Output", CellChangeTimes ->
        Open]], Cell[CellGroupData[{Cell["Deploy", "Subsection", 
          CellChangeTimes -> {{3.767302554894455*^9, 3.7673025555866623*^9}, 
           {3.7673038211114483*^9, 3.767303821477371*^9}}], 
+        Cell[BoxData[RowBox[{"Git", "[", RowBox[{"\"LogDataset\"", ",", " ", 
+              "dir"}], "]"}]], "Input", CellChangeTimes -> 
+          {{3.76730897706147*^9, 3.767308983090835*^9}}, 
+         CellLabel -> "In[175]:="], 
         Cell[BoxData[RowBox[{"PacletServerDeploy", "[", "\"Default\"", 
             "\[IndentingNewLine]", RowBox[{"(*", " ", RowBox[{RowBox[
                  {RowBox[{"do", " ", "I", " ", "have", " ", "any", " ", 
                     "options", " ", "to", " ", "bundle"}], "..."}], "?"}], 
               " ", "*)"}], "\[IndentingNewLine]", "]"}]], "Input", 
          CellChangeTimes -> {{3.7673025329473553*^9, 3.767302560204956*^9}}, 
-         CellLabel -> "In[167]:="]}, Open]]}, Open]]}, 
+         CellLabel -> "In[173]:="]}, Open]]}, Open]]}, 
  FrontEndVersion -> "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
  StyleDefinitions -> "Default.nb"]
