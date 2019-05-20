@@ -1,0 +1,13 @@
+Notebook[{Cell[CellGroupData[{Cell["Local Paclet Server", "Section", 
+      CellChangeTimes -> {{3.767302051426552*^9, 3.7673020750424147*^9}}], 
+     Cell["This is my local paclet server. For a long time it lived on the \
+Wolfram Cloud but ever since learning that the free tier of Wolfram Cloud \
+web-hosting might disappear I decided to migrate it to GitHub.", "Text", 
+      CellChangeTimes -> {{3.767302082889513*^9, 3.767302098065546*^9}, 
+       {3.767302314399706*^9, 3.767302361213933*^9}}], 
+     Cell["GitHub is also just a materially better service so \
+it\[CloseCurlyQuote]s not much of a loss, either.", "Text", 
+      CellChangeTimes -> {{3.767302342583159*^9, 3.767302359166149*^9}}]}, 
+    Open]]}, FrontEndVersion -> 
+  "12.0 for Mac OS X x86 (64-bit) (April 8, 2019)", 
+ StyleDefinitions -> FrontEnd`FileName[{"BTools"}, "MarkdownNotebook.nb"]]
