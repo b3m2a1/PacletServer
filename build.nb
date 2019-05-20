@@ -19,9 +19,26 @@ Notebook[{Cell[CellGroupData[{Cell["Load BTools", "Section",
              3.767304523042736*^9}}, CellLabel -> "In[140]:="], 
            Cell[BoxData["\"gh-pages\""], "Output", CellChangeTimes -> 
              {3.767304523343771*^9, 3.7673074961890717*^9}, 
-            CellLabel -> "Out[140]="]}, Open]]}, Open]], 
-     Cell[CellGroupData[{Cell["Build", "Subsection", CellChangeTimes -> 
-          {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
+            CellLabel -> "Out[140]="]}, Open]], 
+        Cell[BoxData[RowBox[{"Git", "[", RowBox[{"\"LogDataset\"", ",", " ", 
+              "dir"}], "]"}]], "Input", CellChangeTimes -> 
+          {{3.7673048675511093*^9, 3.767304894532436*^9}, 
+           {3.76730493115863*^9, 3.767304935683899*^9}, 
+           {3.767305092611814*^9, 3.7673050971538982*^9}, 
+           3.7673058558154488*^9}, CellLabel -> "In[144]:="], 
+        Cell[CellGroupData[{Cell[BoxData[{RowBox[{RowBox[{"Git", "[", 
+                  RowBox[{"\"Add\"", ",", " ", "dir", ",", " ", RowBox[
+                     {"\"All\"", "\[Rule]", "True"}]}], "]"}], ";"}], 
+              "\[IndentingNewLine]", RowBox[{"Git", "[", RowBox[
+                 {"\"Commit\"", ",", " ", "dir", ",", " ", RowBox[
+                   {"\"Message\"", "\[Rule]", "\"...\""}]}], "]"}]}], 
+            "Input", CellChangeTimes -> {{3.7673075964432287*^9, 
+             3.767307617951577*^9}}, CellLabel -> "In[147]:="], 
+           Cell[BoxData["\"[master f27be60] ...\\n 2 files changed, 35 \
+insertions(+), 164 deletions(-)\""], "Output", CellChangeTimes -> 
+             {3.7673076183870907*^9}, CellLabel -> "Out[148]="]}, Open]]}, 
+       Open]], Cell[CellGroupData[{Cell["Build", "Subsection", 
+         CellChangeTimes -> {{3.7673025299477158*^9, 3.767302531475422*^9}}], 
         Cell[CellGroupData[{Cell[BoxData[RowBox[{"PacletServerBuild", "[", 
                "\"Default\"", "\[IndentingNewLine]", RowBox[{"(*", " ", 
                  RowBox[{RowBox[{RowBox[{"do", " ", "I", " ", "have", " ", 
