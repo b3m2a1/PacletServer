@@ -88,6 +88,8 @@ Cell[BoxData["\<\"Switched to branch 'master'\"\>"], "Output",
   "Out[169]=",ExpressionUUID->"8cdf4ef4-bd4c-4756-94f7-24efa3b76953"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Git", "[", 
   RowBox[{"\"\<LogDataset\>\"", ",", " ", "dir"}], "]"}]], "Input",
@@ -177,6 +179,8 @@ Cell["Deploy", "Subsection",
   3.7673038211114483`*^9, 
   3.767303821477371*^9}},ExpressionUUID->"09579b3a-1b49-44b9-9607-\
 1b128c04c446"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Git", "[", 
